@@ -1,0 +1,18 @@
+<div class="contenedor">
+  <h3 class="titulo">
+    Trabajos
+  </h3>
+  <div class="contenedor-trabajos">
+    <app-work-card *ngFor="let work of dataWorks" class="trabajo"
+      [title]="work.title" [image]="work.image" [alt]="work.alt"
+      [descripcion]="work.descripcion" [url]="work.url"></app-work-card>
+    <!-- <app-work-card class="trabajo"></app-work-card>
+    <app-work-card class="trabajo"></app-work-card>
+    <app-work-card class="trabajo"></app-work-card>
+    <app-work-card class="trabajo"></app-work-card>
+    <app-work-card class="trabajo"></app-work-card>
+    <app-work-card class="trabajo"></app-work-card>
+    <app-work-card class="trabajo"></app-work-card> -->
+
+  </div>
+</div>
